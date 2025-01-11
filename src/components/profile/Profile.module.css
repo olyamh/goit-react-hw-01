@@ -1,0 +1,81 @@
+.userProfile{
+    width: 400px;
+   
+    border-radius: 4%;
+    border: 3px solid black;
+    
+}
+
+.profileBlock{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userAva {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(65, 61, 61);
+}
+
+.nameTitle{
+    font-weight:800;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #070707;
+}
+
+.text{
+    font-weight:400;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: #424242;
+}
+
+.listUl{
+    background-color: #fcf9f9;
+   display: flex;
+    border-bottom-right-radius: 4%;
+    border-bottom-left-radius: 4%;
+    border-top: 3px solid rgb(65, 64, 64);
+}
+
+.listItem{
+    display: flex;
+    flex-direction: column;
+    width: calc(100%  / 3);
+    align-items: center; 
+    background-color: #e4d8d8;
+}
+
+.listUl .listItem:first-child{
+   border-bottom-left-radius:10%;
+   
+    border-right: 3px solid rgb(65, 64, 64);
+}
+
+.listUl .listItem:last-child{
+    border-bottom-right-radius:10%;
+    
+     border-left: 3px solid rgb(65, 64, 64);
+ }
+
+.spanTitle{
+    font-weight:300;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: #000000; 
+}
+
+.spanNumber{
+    font-weight:900;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: #000000; 
+} 
