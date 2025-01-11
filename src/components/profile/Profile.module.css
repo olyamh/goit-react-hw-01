@@ -3,7 +3,7 @@
    
     border-radius: 4%;
     border: 3px solid black;
-    
+    margin-bottom: 20px;
 }
 
 .profileBlock{
@@ -37,10 +37,8 @@
 }
 
 .listUl{
-    background-color: #fcf9f9;
+    background-color: #cebdbd;
    display: flex;
-    border-bottom-right-radius: 4%;
-    border-bottom-left-radius: 4%;
     border-top: 3px solid rgb(65, 64, 64);
 }
 
@@ -49,11 +47,10 @@
     flex-direction: column;
     width: calc(100%  / 3);
     align-items: center; 
-    background-color: #e4d8d8;
 }
 
 .listUl .listItem:first-child{
-   border-bottom-left-radius:10%;
+  border-bottom-left-radius: 4%;
    
     border-right: 3px solid rgb(65, 64, 64);
 }

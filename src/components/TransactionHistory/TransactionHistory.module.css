@@ -1,0 +1,36 @@
+.tbHead {
+    background-color: #333;
+  }
+  
+  .headCell,
+  .bodyCell {
+    width: 33.33%;
+    text-align: center;
+  }
+
+  .bodyCell{
+    text-transform: capitalize;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .headTr {
+    color: white;
+  }
+  
+  .bodyRow:nth-child(odd) {
+    background-color: white;
+  }
+  
+  .bodyRow:nth-child(even) {
+    background-color: lightgrey;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
